@@ -10,7 +10,7 @@ if (process.env.NEW_RELIC_LICENSE_KEY) {
   console.log('New Relic in use.');
   require('newrelic');
 } else {
-  console.log('New Relic not in use.');
+  console.log('New Relic is not in use.');
 }
 
 var SwaggerExpress = require('swagger-express-mw');
